@@ -227,17 +227,12 @@ p{
 /* .bx-line-chart, .bx-alarm{
     margin-inline: 100px;
 } */
- .bx-alarm{
+.bx-alarm{
     margin-left: -20px;
 } 
 
 .bx-line-chart{
     margin-left: 50px;
-}
-
-#close{
-    font-size: 15px;
-    /* display: contents; */
 }
 .learn{
     margin-left: 20px;
@@ -258,10 +253,10 @@ p{
 .star{
     color: gold;
 }
-.kenshin{
+/* .kenshin{
     size: 100px;
     
-}
+} */
 .ali{
     overflow: hidden;
     max-width: 100%;
@@ -274,9 +269,6 @@ p{
     left: 20px;
     margin: 150px 0 0 450px;
     text-align: center;
-}
-.price{
-   color:  rgb(3, 175, 95);
 }
 button{
    /* background-color: blue; */
@@ -341,9 +333,6 @@ input[type="submit"]{
 .info h6{
     font-weight: 5rem;
 }
-.info li{
-    color: rgb(85, 96, 107);
-}
 .foot{
     background-color: whitesmoke;
     font-size: 40px;
@@ -353,6 +342,14 @@ input[type="submit"]{
 }
 
 @media screen and (max-width: 600px){
+    .icon1{
+        height: 50px;
+    }
+    .aka{
+        padding-top: -10px;
+        font-size: 12px;
+        margin: 0 auto;
+    }
     .navie{
         overflow: hidden;
     }
@@ -362,7 +359,7 @@ input[type="submit"]{
     .menuitem{
         flex-direction: column;
         position: absolute; 
-        /* background: rgb(214, 236, 243); */
+        background: whitesmoke;
         width: 100%;
         top: -500px;
         right: 0px;
@@ -371,9 +368,7 @@ input[type="submit"]{
         transition: all ease-in-out 500ms;
         overflow: hidden;
     }
-    .menuitem .icons{
-        /* background: #000; */
-    }
+  
     .menuitem .icons div{
         margin: 0 !important;
         /* background: #000; */
@@ -386,7 +381,7 @@ input[type="submit"]{
 
     }
     .menuitem.active{
-        top: 50px;
+        top: 70px;
     }
     .togg .bar{
         width: 25px;
@@ -400,7 +395,7 @@ input[type="submit"]{
     }
     .classy{
         text-align: center;
-        padding: 0.3rem;
+        /* padding: 0.3rem; */
         width: 100%;
         display: table;
     }
@@ -428,9 +423,6 @@ input[type="submit"]{
     }
 }
 @media screen and (max-width: 600px){
-    .navtem{
-        
-    }
     #idc{
         font-size: 20px;
         /* padding-top: -10%; */
@@ -447,16 +439,132 @@ input[type="submit"]{
         font-size: 90px;
     }
     .text3{
-        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        margin-left: 50px;
         padding-bottom: 70px;
     }
     #text{
-        font-size: 17px;
+        font-size: 15px;
         font-weight: bolder;
     }
     .text1{
         position: absolute;
         top: 1px;
         left: 5px;
+    }
+    .snow{
+        font-size: 10px;
+        word-spacing: 10px;
+        margin-left: 10px;
+    }
+    .rub{
+        font-size: 18px;
+        font-weight: 20px;
+        margin-left: 10px;
+    }
+    #rub{
+        margin-left: 10px;
+    }
+    .ico1{
+        font-size: 18px;
+    }
+    .bx-alarm{
+       font-size: 18px;
+    }
+    .bx-line-chart{
+        margin-left: -20px;
+    }
+    .learn{
+        margin-left: 10px;
+        color: black;
+    }
+    .bored{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .kenshin{
+        padding-top: 20%;
+        overflow: hidden;
+    }
+    .beyored h3{
+        font-size: 20px;
+    }
+    .beyored h6{
+        font-size: 10px;
+    }
+
+    .tired{
+        overflow: hidden;
+    }
+    .tiring{
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        margin: 15px 0 0 45px;
+        text-align: center;
+    }
+    .tiring h6,h3{
+        font-size: 20px;
+    }
+    .tiring p{
+        font-size: 10px;
+    }
+    .rte{
+        size: 5px;
+    }
+    .row5{
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        /* padding: 30px 0; */
+        /* border-bottom: 10px; */
+    }
+    .ban{
+        margin-left: 20px;
+    }
+    .merry{
+        margin-left: 15rem;
+    }
+    .last{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .info{
+        font-size: 10px;
+    }
+    .info h6{
+        font-size: 10px;
+        font-weight: 20px;
+    }
+    input{
+        position: relative;
+        display: inline-block;
+        font-size: 10px;
+        box-sizing: border-box;
+    }
+    input[type="email"]{
+        height: 30px;
+        padding: 0 5px;
+    }
+    input[type="submit"]{
+        height: 30px;
+        top: -34px;
+        left: 90px;
+    }
+    .foot{
+        font-size: 20px;
     }
 }
