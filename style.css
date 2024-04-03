@@ -430,6 +430,9 @@ input[type="submit"]{
     #cur{
         font-size: 12px;
     }
+    .idk{
+        font-size: 10px;
+    }
     .zen{
         padding-top: 20%;
         padding-bottom: 10%;
@@ -526,16 +529,16 @@ input[type="submit"]{
 
     .tired{
         overflow: hidden;
+        padding-bottom: 50px;
     }
     .tiring{
         position: absolute;
-        top: 5px;
-        left: 10px;
+        top: 3px;
+        left: 8px;
         margin: 15px 0 0 45px;
-        text-align: center;
     }
     .tiring h6,h3{
-        font-size: 20px;
+        font-size: 15px;
     }
     .tiring p{
         font-size: 10px;
